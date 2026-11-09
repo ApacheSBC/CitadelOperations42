@@ -32,25 +32,25 @@
         <mxCell id="po" value="Product owner&#10;AI role" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0f8;strokeColor=#48627b;fontColor=#18334e;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="350" y="220" width="300" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="ux" value="UI/UX team&#10;AI role" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0f8;strokeColor=#48627b;fontColor=#18334e;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="40" y="410" width="220" height="80" as="geometry" />
+        <mxCell id="ux" value="UX Designer / UI/UX&#10;AI role" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0f8;strokeColor=#48627b;fontColor=#18334e;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="20" y="410" width="175" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="fs" value="Full-stack team&#10;AI role" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0f8;strokeColor=#48627b;fontColor=#18334e;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="300" y="410" width="220" height="80" as="geometry" />
+        <mxCell id="fs" value="Architect / Full-stack&#10;AI role" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0f8;strokeColor=#48627b;fontColor=#18334e;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="215" y="410" width="175" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="data" value="Data team&#10;AI role" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0f8;strokeColor=#48627b;fontColor=#18334e;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="560" y="410" width="220" height="80" as="geometry" />
+        <mxCell id="data" value="Data Engineer&#10;AI role" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0f8;strokeColor=#48627b;fontColor=#18334e;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="410" y="410" width="175" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="qa" value="QA team&#10;AI role" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0f8;strokeColor=#48627b;fontColor=#18334e;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="820" y="410" width="220" height="80" as="geometry" />
+        <mxCell id="qa" value="QA Lead&#10;AI role" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0f8;strokeColor=#48627b;fontColor=#18334e;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="605" y="410" width="175" height="80" as="geometry" />
         </mxCell>
         <mxCell id="security" value="Only security engineer&#10;User - advises every team" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0f8;strokeColor=#48627b;fontColor=#18334e;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="780" y="110" width="320" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="note" value="Exercise roles, not employees.&#10;Founder accepts business risk.&#10;Arrows show coordination / advice." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0f8;strokeColor=#48627b;fontColor=#18334e;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="note" value="Source: user-supplied Company Summary.&#10;AI assistants support functional roles.&#10;Founder is sole human decision-maker and security engineer." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0f8;strokeColor=#48627b;fontColor=#18334e;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="260" y="610" width="650" height="100" as="geometry" />
         </mxCell>
-      </root>
+      <mxCell id="ai" value="AI Engineer&#10;AI role" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0f8;strokeColor=#48627b;fontColor=#18334e;fontSize=16;" vertex="1" parent="1"><mxGeometry x="800" y="410" width="175" height="80" as="geometry" /></mxCell><mxCell id="edge-ai" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;strokeColor=#48627b;" edge="1" parent="1" source="po" target="ai"><mxGeometry relative="1" as="geometry" /></mxCell><mxCell id="delivery" value="Delivery Lead&#10;AI role" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0f8;strokeColor=#48627b;fontColor=#18334e;fontSize=16;" vertex="1" parent="1"><mxGeometry x="995" y="410" width="175" height="80" as="geometry" /></mxCell><mxCell id="edge-delivery" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;strokeColor=#48627b;" edge="1" parent="1" source="po" target="delivery"><mxGeometry relative="1" as="geometry" /></mxCell></root>
     </mxGraphModel>
   </diagram>
 </mxfile>
