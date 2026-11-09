@@ -1,8 +1,12 @@
 # Citadel Operations
 
-Citadel Operations is a fictional company being planned in the Cyber Agoge Project Build Room. Its Session 1 reference design explores a website with login, an admin portal, application and partner APIs, a database, a private file store and an AI chatbot, with each customer organisation's information kept separate.
+Citadel Operations is a fictional dual-use geospatial intelligence company based in Belfast, Northern Ireland. Its mission is to combine satellite intelligence, drone operations and AI-driven analysis to support surveillance, operational decisions and critical infrastructure protection.
 
-**Planning draft:** the business pitch, industry, mission, two fictional customer names and final user roles still need founder decisions. This exercise scope is not a claim of a live product or deployed security controls.
+The planned Citadel Geospatial Intelligence Platform helps defence contractors and energy organisations monitor geographical areas, analyse satellite/drone information and prepare operational or intelligence reports. Its two fictional customers are **Sentinel Defence Systems** and **Northstar Oil & Gas**, whose information must remain strictly separated.
+
+Platform roles are **Customer Analyst**, **Customer Administrator** and **Citadel Platform Administrator**. The reference design includes a public website and customer application with secure login, a separate admin portal, application and public partner APIs, a database, a private imagery/document store and an AI chatbot. Azure AI Foundry versus AWS Bedrock remains undecided.
+
+Company facts follow the user-supplied Company Summary. Data categories, AI capabilities and priority risks remain proposals. This is a planning exercise; no live product, deployment or passing security test is claimed.
 
 ## Session 1 workspace
 
@@ -21,7 +25,7 @@ Citadel Operations is a fictional company being planned in the Cyber Agoge Proje
 
 Open these files in draw.io / diagrams.net:
 
-- [Organisation chart](docs/org-chart.drawio) — KAN-8. The user is the only security engineer; the AI agent plays the product owner, UI/UX, full-stack, data and QA roles.
+- [Organisation chart](docs/org-chart.drawio) — KAN-8. The user is the only security engineer; AI assistants support the product owner, UX, architecture/full-stack, data, AI engineering, QA and delivery roles.
 - [Architecture](docs/architecture.drawio) — KAN-11. This is a logical reference design with application, data and external AI trust boundaries. Azure AI Foundry versus AWS Bedrock remains undecided.
 
 The same editable diagrams and rendered previews are attached to their Confluence pages. They do not establish that the draw.io Confluence app has been installed or tested.
