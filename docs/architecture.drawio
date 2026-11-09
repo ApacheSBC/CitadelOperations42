@@ -41,13 +41,13 @@
         <mxCell id="e8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;strokeColor=#48627b;fontSize=12;labelBackgroundColor=#f8fafc;" edge="1" parent="1" source="chat" target="model">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="users" value="Customer / administrator&#10;Fictional users" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0f8;strokeColor=#48627b;fontColor=#18334e;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="users" value="Customer roles +&#10;Platform Administrator" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0f8;strokeColor=#48627b;fontColor=#18334e;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="35" y="105" width="260" height="75" as="geometry" />
         </mxCell>
         <mxCell id="partner" value="Partner client&#10;Access model undecided" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0f8;strokeColor=#48627b;fontColor=#18334e;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="35" y="235" width="260" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="web" value="Website + login" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0f8;strokeColor=#48627b;fontColor=#18334e;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="web" value="Website + customer app&#10;Secure login" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0f8;strokeColor=#48627b;fontColor=#18334e;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="370" y="100" width="260" height="65" as="geometry" />
         </mxCell>
         <mxCell id="admin" value="Admin portal&#10;Privileged role checks" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0f8;strokeColor=#48627b;fontColor=#18334e;fontSize=16;" vertex="1" parent="1">
@@ -59,10 +59,10 @@
         <mxCell id="api" value="Application API&#10;Authenticate, authorise, scope" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0f8;strokeColor=#48627b;fontColor=#18334e;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="690" y="245" width="300" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="db" value="Structured database&#10;Organisation ownership" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0f8;strokeColor=#48627b;fontColor=#18334e;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="db" value="Geospatial records&#10;Organisation ownership" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0f8;strokeColor=#48627b;fontColor=#18334e;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="370" y="455" width="260" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="files" value="Private file store&#10;Authorised object access" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0f8;strokeColor=#48627b;fontColor=#18334e;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="files" value="Imagery + reports/files&#10;Private organisation access" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0f8;strokeColor=#48627b;fontColor=#18334e;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="690" y="455" width="300" height="80" as="geometry" />
         </mxCell>
         <mxCell id="chat" value="Chatbot + scoped retrieval&#10;No privileged model actions" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0f8;strokeColor=#48627b;fontColor=#18334e;fontSize=16;" vertex="1" parent="1">
