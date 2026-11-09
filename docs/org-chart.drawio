@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" version="24.7.17">
+  <diagram name="org-chart" id="org-chart">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1200" pageHeight="800">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="e0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;strokeColor=#48627b;fontSize=12;labelBackgroundColor=#f8fafc;" edge="1" parent="1" source="founder" target="po">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;strokeColor=#48627b;fontSize=12;labelBackgroundColor=#f8fafc;" edge="1" parent="1" source="po" target="ux">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;strokeColor=#48627b;fontSize=12;labelBackgroundColor=#f8fafc;" edge="1" parent="1" source="po" target="fs">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;strokeColor=#48627b;fontSize=12;labelBackgroundColor=#f8fafc;" edge="1" parent="1" source="po" target="data">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;strokeColor=#48627b;fontSize=12;labelBackgroundColor=#f8fafc;" edge="1" parent="1" source="po" target="qa">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;strokeColor=#48627b;fontSize=12;labelBackgroundColor=#f8fafc;" edge="1" parent="1" source="security" target="qa">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;strokeColor=#48627b;fontSize=12;labelBackgroundColor=#f8fafc;" edge="1" parent="1" source="security" target="po">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="founder" value="Founder / company owner&#10;User" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0f8;strokeColor=#48627b;fontColor=#18334e;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="350" y="85" width="300" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="po" value="Product owner&#10;AI role" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0f8;strokeColor=#48627b;fontColor=#18334e;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="350" y="220" width="300" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="ux" value="UI/UX team&#10;AI role" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0f8;strokeColor=#48627b;fontColor=#18334e;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="410" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fs" value="Full-stack team&#10;AI role" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0f8;strokeColor=#48627b;fontColor=#18334e;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="300" y="410" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="data" value="Data team&#10;AI role" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0f8;strokeColor=#48627b;fontColor=#18334e;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="560" y="410" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qa" value="QA team&#10;AI role" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0f8;strokeColor=#48627b;fontColor=#18334e;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="820" y="410" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="security" value="Only security engineer&#10;User - advises every team" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0f8;strokeColor=#48627b;fontColor=#18334e;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="780" y="110" width="320" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="note" value="Exercise roles, not employees.&#10;Founder accepts business risk.&#10;Arrows show coordination / advice." style="rounded=1;whiteSpace=wrap;html=0;fillColor=#e8f0f8;strokeColor=#48627b;fontColor=#18334e;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="260" y="610" width="650" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
